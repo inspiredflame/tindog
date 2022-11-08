@@ -1,0 +1,181 @@
+body{
+    font-family: "Montserrat-Black";
+}
+h1
+{
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h2
+{
+  font-family: "Montserrat-bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.txt{
+  font-weight: bolder;
+}
+h3
+{
+  font-family: "Montserrat-Black";
+  font-weight:bold;
+}
+p{
+  color: #8F8F8F;
+}
+/* id so use # */
+#title
+{
+   background-color: #ff4c68;
+   /* color: #fff;  */
+   /* change the text colour in title */
+}
+
+/* classes */
+.container-fluid1
+{
+  padding: 3% 15% 7%;
+}
+/* function */
+
+/* image tag */
+.img1
+{
+  height: 85px;
+  margin-bottom: 1rem;
+}
+/* brand size */
+.brand-name
+{
+  text-size:5px;
+}
+/* head line */
+.head1
+{
+  font-size: 3.5rem;
+}
+/* nav bar */
+.nbar
+{
+  padding-top:20px;
+}
+.navbar
+{
+  padding:0 0 4.5rem;
+}
+.navbar-brand
+{
+  font-family: "Ubuntu";
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.nav-item
+{
+  padding: 0 18px;
+}
+/* Download btns */
+.Download-btn
+{
+  margin-left:  7px;
+}
+/* title image */
+.title-image{
+    width: 25%;
+  /* to rotate the image */
+  /* to make the flow according to code html flow */
+  position: absolute;
+  transform: rotate(25deg);
+}
+/* feature section */
+#features
+{
+  padding: 5% 9% 5%;
+  background-color: white;
+  /* to make it on the top and its flow to be relative acc to order that is html flow*/
+  position: relative;
+  z-index: 1;
+}
+.features-box
+{
+  text-align: center;
+  padding: 5%;
+}
+
+
+/* testimonials Section */
+#testimonials
+{
+  text-align: center;
+  background-color:  #ff4c68;
+}
+.img2
+{
+   width: 25%;
+   /* circle the image */
+   border-radius: 100%;
+   margin:20px;
+}
+.carousel-item
+{
+  padding: 5% 9% 5%;
+}
+/* press section */
+#press{
+  background-color:  #ff4c68;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.img3
+{
+  width:15%;
+  margin: 20px 30px 50px;
+}
+/* pricing section */
+#pricing
+{
+  padding:100px;
+    text-align: center;
+}
+.price-col
+{
+  padding: 2% 9%;
+}
+/* media query to do add functionality acc to diff resolutions */
+/* max-width to change desktop website to look good in mobile */
+@media (max-width:993px) {
+  #title{
+    text-align: center;
+  }
+  .title-image
+  {
+    padding-top: 15px;
+    width: 50%;
+    transform:rotate(0);
+    position: static;
+  }
+}
+/* call to action section */
+#cta
+{
+  /* color:white; */
+  background-color:  #ff4c68;
+  text-align: center;
+  padding:7% 15%;
+}
+.cta-edit
+{
+  font-size: 2.4rem;
+  padding-bottom: 40px;
+}
+
+/* footer */
+#footer{
+  padding:0 15%;
+  text-align: center;
+}
+.img3
+{
+  padding-bottom: 0;
+  width: 200px;
+}
